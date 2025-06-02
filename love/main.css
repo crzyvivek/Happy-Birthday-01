@@ -175,12 +175,12 @@ p {
   right: 20px;
   background: #222;
   color: #f0f0f0;
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 8px 12px;
+  font-size: 6px;
   font-weight: 600;
   letter-spacing: 1px;
   border-radius: 8px;
-  box-shadow: 0 0 12px 3px rgba(255, 0, 0, 0.7);
+  box-shadow: 0 0 8px 3px rgba(255, 0, 0, 0.7);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   user-select: none;
   z-index: 9999;
@@ -192,14 +192,14 @@ p {
   color: #ff4d4d;
   text-shadow: 0 0 10px #ff4d4d;
   animation: pulse 2s infinite;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 @keyframes pulse {
   0%, 100% {
-    text-shadow: 0 0 10px #ff4d4d;
+    text-shadow: 0 0 8px #ff4d4d;
   }
   50% {
-    text-shadow: 0 0 22px #ff0000;
+    text-shadow: 0 0 12.5px #ff0000;
   }
 }
